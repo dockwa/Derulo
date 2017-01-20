@@ -50,7 +50,7 @@ let jasonPersonJSON = jasonPerson.asJSON
 
 #### make another json
 ```swift
-var jaySeanJSON = [String : Any]()
+var jaySeanJSON = JSON()
 jaySeanJSON["id"] = 57
 jaySeanJSON["name"] = "Jay Sean"
 ```

@@ -12,7 +12,6 @@ import Foundation
 
 //MARK: - JSON
 
-
 public typealias JSONKey = String
 public typealias JSONValue = Any
 
@@ -26,4 +25,13 @@ public func == (lhs: JSON, rhs: JSON) -> Bool {
     let leftDict = NSDictionary(dictionary: lhs)
     let rightDict = NSDictionary(dictionary: rhs)
     return leftDict == rightDict
+}
+
+
+
+
+public func += <K, V> (left: inout [K:V], right: [K:V]) {
+    for (k, v) in right {
+        left.updateValue(v, forKey: k)
+    }
 }

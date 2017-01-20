@@ -38,7 +38,7 @@ class Tests: XCTestCase {
         
         
         //make another json
-        var jaySeanJSON = [String : Any]()
+        var jaySeanJSON = JSON()
         jaySeanJSON["id"] = 57
         jaySeanJSON["name"] = "Jay Sean"
         
