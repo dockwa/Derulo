@@ -12,6 +12,6 @@ import Foundation
 //MARK: - JSONConvertible
 
 ///JSONConvertible indicates the object can be converted into JSON.
-protocol JSONConvertible {
+public protocol JSONConvertible {
     var asJSON: JSON { get }
 }

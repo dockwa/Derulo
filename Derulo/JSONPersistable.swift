@@ -10,6 +10,6 @@ import Foundation
 
 
 ///JSONPersistable indicates that the object can be persisted to and restored from disk.
-protocol JSONPersistable: JSONMappable {
+public protocol JSONPersistable: JSONMappable {
     var asPersistenceJSON: JSON { get }
 }

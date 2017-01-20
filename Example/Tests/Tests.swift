@@ -33,8 +33,8 @@ class Tests: XCTestCase {
         let jasonPerson = Person(json: jasonJSON)
         
         //convert to JSON
-        let jasonPersonJSON = jasonPerson.asJSON
-        
+        let jasonPersonJSON = jasonPerson?.asJSON
+        print(jasonPersonJSON ?? "")
         
         
         //make another json
@@ -56,7 +56,7 @@ class Tests: XCTestCase {
         
         //convert to JSON
         let peopleJSON = JSONConverter<Person>().jsonArray(fromArray: people)
-        
+        print(peopleJSON ?? "")
         
         
         //MARK: - Persistence
@@ -65,10 +65,13 @@ class Tests: XCTestCase {
         
         
         //store on disk
-        JSONPersistenceManager<Person>().store(array: people, withKey: persistenceKey)
+        if let people = people {
+            JSONPersistenceManager<Person>().store(array: people, withKey: persistenceKey)
+        }
         
         //restore from disk
         let restoredPeople = JSONPersistenceManager<Person>().restoreArray(withKey: persistenceKey)
+        print(restoredPeople ?? "")
         
         //delete from disk
         JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)

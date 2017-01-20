@@ -11,11 +11,12 @@ import Foundation
 
 
 ///JSONPersistenceManager allows you to persist, restore, and remove JSONPersistable objects from disk.
-struct JSONPersistenceManager<T: JSONPersistable> {
-    
+public struct JSONPersistenceManager<T: JSONPersistable> {
+    public init() {}
+
     //MARK: - Objects
     
-    func restoreObject(withKey key: String) -> T? {
+    public func restoreObject(withKey key: String) -> T? {
         
         guard let json = JSONFileManager.loadJSON(withFilename: key), let object = T(json: json) else {
             return nil
@@ -23,7 +24,7 @@ struct JSONPersistenceManager<T: JSONPersistable> {
         return object
     }
     
-    func store(object: T, withKey: String) {
+    public func store(object: T, withKey: String) {
         
         let json = object.asPersistenceJSON
         JSONFileManager.write(json: json, toFilename: withKey)
@@ -32,7 +33,7 @@ struct JSONPersistenceManager<T: JSONPersistable> {
     
     //MARK: - Arrays
     
-    func restoreArray(withKey key: String) -> [T]? {
+    public func restoreArray(withKey key: String) -> [T]? {
         
         guard let json = JSONFileManager.loadJSONArray(withFilename: key) else {
             return nil
@@ -41,7 +42,7 @@ struct JSONPersistenceManager<T: JSONPersistable> {
         return array
     }
     
-    func store(array: [T], withKey: String) {
+    public func store(array: [T], withKey: String) {
         
         guard let json = JSONPersistenceConverter<T>().jsonArray(fromArray: array) else { return }
         JSONFileManager.write(jsonArray: json, toFilename: withKey)
@@ -51,7 +52,7 @@ struct JSONPersistenceManager<T: JSONPersistable> {
     
     //MARK: - Remove
     
-    func removeObject(withKey key: String) {
+    public func removeObject(withKey key: String) {
         JSONFileManager.remove(filename: key)
     }
 }

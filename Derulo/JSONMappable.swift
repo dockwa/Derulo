@@ -13,6 +13,6 @@ import Foundation
 //MARK: - JSONMappable
 
 ///JSONMappable indicates the object can be created from JSON
-protocol JSONMappable {
+public protocol JSONMappable {
     init?(json: JSON?)
 }

@@ -12,6 +12,6 @@ import Foundation
 //MARK: - JSONModel
 
 ///JSONModel is a composite type that is Identifiable and can be created from and transformed into JSON.
-protocol JSONModel: Identifiable, JSONMappable, JSONConvertible {}
+public protocol JSONModel: Identifiable, JSONMappable, JSONConvertible {}
 
 

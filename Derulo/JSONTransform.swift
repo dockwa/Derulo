@@ -12,7 +12,7 @@ import Foundation
 //MARK: - JSON Helpers
 
 ///A JSONTransform is a uniform way to represent a helper that transforms a native JSON type to a Swift type
-protocol JSONTransform {
+public protocol JSONTransform {
     associatedtype ObjectType
     associatedtype JSONType
     
@@ -22,12 +22,13 @@ protocol JSONTransform {
 
 
 
-struct IntToStringTransform: JSONTransform {
-    typealias ObjectType = String
-    typealias JSONType = Int
+public struct IntToStringTransform: JSONTransform {
+    public typealias ObjectType = String
+    public typealias JSONType = Int
     
+    public init() {}
     
-    func transform(fromJSON value: Any?) -> String? {
+    public func transform(fromJSON value: Any?) -> String? {
         
         guard let value = value else {
             return nil
@@ -37,7 +38,7 @@ struct IntToStringTransform: JSONTransform {
         return string
     }
     
-    func transform(toJSON value: String?) -> Int? {
+    public func transform(toJSON value: String?) -> Int? {
         
         guard let value = value else {
             return nil

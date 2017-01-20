@@ -7,9 +7,7 @@
 A flexible collection of Swift mixins to organize and manage translating between JSON and native Swift objects.
 
 
-## Ideology
-
-### Give your model objects a consistent JSON conversion / mapping / caching / offline strategy without getting in your way
+## Designed to give your model objects a consistent JSON conversion / mapping / caching / offline strategy without getting in your way.
 
 * Designed to be flexible enough to let you implement your models as your requirements dictate while giving you a general framework to organize your JSON parsing and caching strategy.
 
