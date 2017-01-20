@@ -13,7 +13,7 @@ import Foundation
 //MARK: - JSONConverter
 
 
-///A JSONConverter allows you to create JSON objects and JSON arrays from JSONConvertible objects and arrays of JSONConvertible objects.
+///Helps you to create JSON objects and JSON arrays from JSONConvertible objects and arrays of JSONConvertible objects.
 public protocol JSONConversionHelper {
     associatedtype T
     

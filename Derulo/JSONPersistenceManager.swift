@@ -10,7 +10,7 @@ import Foundation
 
 
 
-///JSONPersistenceManager allows you to persist, restore, and remove JSONPersistable objects from disk.
+///Helps you to persist, restore, and remove JSONPersistable objects from disk.
 public struct JSONPersistenceManager<T: JSONPersistable> {
     public init() {}
 

@@ -14,7 +14,7 @@ import Foundation
 public typealias Identifier = String
 
 
-///Identifiable indicates the object has a String property called `identifier` that is unique amongst objects. Helpful for objects coming back from an API.
+///Indicates the object has a String property called `identifier` that is unique amongst objects. Helpful for objects coming back from an API.
 public protocol Identifiable {
     var identifier: Identifier { get }
 }

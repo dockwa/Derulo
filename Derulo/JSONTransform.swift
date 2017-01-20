@@ -11,7 +11,7 @@ import Foundation
 
 //MARK: - JSON Helpers
 
-///A JSONTransform is a uniform way to represent a helper that transforms a native JSON type to a Swift type
+///A uniform way to represent a helper that transforms a native JSON type to a Swift type
 public protocol JSONTransform {
     associatedtype ObjectType
     associatedtype JSONType

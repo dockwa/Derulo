@@ -11,7 +11,7 @@ import Foundation
 
 //MARK: - JSONMapper
 
-///JSONMapper allows you to create objects and Arrays of objects from JSON.
+///Helps you to create objects and Arrays of objects from JSON.
 public struct JSONMapper<T: JSONMappable> {
     public init() {}
     

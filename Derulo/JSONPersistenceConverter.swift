@@ -9,7 +9,7 @@
 import Foundation
 
 
-///A JSONConverter for persisting objects to disk. Converts the object to JSON or a JSON array.
+///Helper for persisting objects to disk. Converts the object to JSON or a JSON array.
 public struct JSONPersistenceConverter<T: JSONPersistable>: JSONConversionHelper {
     public init() {}
 
