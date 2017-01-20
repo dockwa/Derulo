@@ -51,12 +51,3 @@ extension Person: JSONPersistable {
     }
 }
 
-
-
-
-
-
-
-
-
-
