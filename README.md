@@ -123,7 +123,7 @@ extension Person: JSONConvertible {
 
     var asJSON: JSON {
         var json = JSON()
-        json["id"] = identifier
+        json["id"] = IntToStringTransform().transform(toJSON: identifier)
         json["name"] = name
         return json
     }

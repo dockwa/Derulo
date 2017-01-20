@@ -20,7 +20,7 @@ class Tests: XCTestCase {
     func testExample() {
 
         //start with JSON
-        var jasonJSON = JSON()
+        var jasonJSON = [String : Any]()
         jasonJSON["id"] = 93
         jasonJSON["name"] = "Jason Derulo"
         
@@ -38,7 +38,7 @@ class Tests: XCTestCase {
         
         
         //make another json
-        var jaySeanJSON = JSON()
+        var jaySeanJSON = [String : Any]()
         jaySeanJSON["id"] = 57
         jaySeanJSON["name"] = "Jay Sean"
         
