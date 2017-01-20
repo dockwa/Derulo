@@ -24,7 +24,7 @@ A flexible collection of Swift protocols and helpers to organize and manage tran
 #### start with JSON
 
 ```swift
-var jasonJSON = JSON()
+var jasonJSON = [String : Any]()
 jasonJSON["id"] = 93
 jasonJSON["name"] = "Jason Derulo"
 ```
