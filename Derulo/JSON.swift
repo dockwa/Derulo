@@ -13,14 +13,14 @@ import Foundation
 //MARK: - JSON
 
 public typealias JSONKey = String
-public typealias JSONValue = Any
+public typealias JSONEntry = Any
 
 
 ///JSON is the foundational type of Derulo. It is a Swift representation of a text-based JSON object.
-public typealias JSON = [JSONKey : JSONValue]
+public typealias JSON = [JSONKey : JSONEntry]
 
 
-
+///Equality for JSON objects.
 public func == (lhs: JSON, rhs: JSON) -> Bool {
     let leftDict = NSDictionary(dictionary: lhs)
     let rightDict = NSDictionary(dictionary: rhs)

@@ -19,7 +19,7 @@ public protocol Identifiable {
     var identifier: Identifier { get }
 }
 
-
+///Equality for Identifiable objects.
 public func == (lhs: Identifiable, rhs: Identifiable) -> Bool {
     return lhs.identifier == rhs.identifier
 }

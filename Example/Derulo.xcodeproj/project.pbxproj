@@ -531,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DE97374EF9D058B6312454CA /* Pods-Derulo_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C223FBC090CB56476AABDE0C /* Pods-Derulo_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

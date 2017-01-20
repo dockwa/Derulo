@@ -12,6 +12,7 @@ import Derulo
 struct Person: Identifiable {
     let identifier: Identifier
     let name: String
+    let favoriteSong: Song?
 }
 
 extension Person: JSONMappable {
@@ -26,6 +27,7 @@ extension Person: JSONMappable {
         
         self.identifier = id
         self.name = json["name"] as? String ?? "No Name"
+        self.favoriteSong = Song(jsonEntry: json["fav_song"])
     }
 }
 
@@ -36,6 +38,10 @@ extension Person: JSONConvertible {
         var json = JSON()
         json["id"] = IntToStringTransform().transform(toJSON: identifier)
         json["name"] = name
+        
+        if let favoriteSong = favoriteSong {
+            json["fav_song"] = favoriteSong.asJSONEntry
+        }
         return json
     }
 }
@@ -50,4 +56,47 @@ extension Person: JSONPersistable {
         return asJSON
     }
 }
+
+
+
+enum Song: String {
+    case wiggle
+    case talkDirty
+}
+
+
+extension Song: JSONEntryMappable, JSONEntryConvertible {
+
+    init?(jsonEntry: JSONEntry?) {
+        guard let jsonEntry = jsonEntry as? String else { return nil }
+        self.init(rawValue: jsonEntry)
+    }
+    
+    var asJSONEntry: String {
+        return rawValue
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

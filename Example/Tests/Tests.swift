@@ -23,8 +23,9 @@ class Tests: XCTestCase {
         var jasonJSON = [String : Any]()
         jasonJSON["id"] = 93
         jasonJSON["name"] = "Jason Derulo"
-        
+        jasonJSON["fav_song"] = "wiggle"
 
+        
         
         //MARK: - To / From JSON
         
