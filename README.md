@@ -67,7 +67,7 @@ let people: [Person] = JSONMapper<Person>().mapArray(json: jsonArray)
 
 #### convert to JSON
 ```swift
-let peopleJSON [JSON] = JSONConverter<Person>().jsonArray(fromArray: people)
+let peopleJSON: [JSON] = JSONConverter<Person>().jsonArray(fromArray: people)
 ```
 
 
