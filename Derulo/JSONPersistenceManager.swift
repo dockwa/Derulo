@@ -43,7 +43,7 @@ struct JSONPersistenceManager<T: JSONPersistable> {
     
     func store(array: [T], withKey: String) {
         
-        guard let json = PersistenceJSONConverter<T>().jsonArray(fromArray: array) else { return }
+        guard let json = JSONPersistenceConverter<T>().jsonArray(fromArray: array) else { return }
         JSONFileManager.write(jsonArray: json, toFilename: withKey)
     }
 

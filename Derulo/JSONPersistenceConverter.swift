@@ -10,7 +10,7 @@ import Foundation
 
 
 ///A JSONConverter for persisting objects to disk. Converts the object to JSON or a JSON array.
-struct PersistenceJSONConverter<T: JSONPersistable>: JSONConverter {
+struct JSONPersistenceConverter<T: JSONPersistable>: JSONConverter {
     
     func json(fromObject: T?) -> JSON? {
         guard let object = fromObject else { return nil }

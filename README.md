@@ -80,17 +80,17 @@ let persistenceKey = "people"
 
 #### store to disk
 ```swift
-JSONPersistenceManager<Person>.store(array: people, withKey: persistenceKey)
+JSONPersistenceManager<Person>().store(array: people, withKey: persistenceKey)
 ```
 
 #### restore from disk
 ```swift
-let restoredPeople: [Person] = JSONPersistenceManager<Person>.restoreArray(withKey: persistenceKey)
+let restoredPeople: [Person] = JSONPersistenceManager<Person>().restoreArray(withKey: persistenceKey)
 ```
 
 #### delete from disk
 ```swift
-JSONPersistenceManager<Person>.removeObject(withKey: persistenceKey)
+JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
 ```
 
 

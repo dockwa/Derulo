@@ -65,14 +65,13 @@ class Tests: XCTestCase {
         
         
         //store on disk
-        JSONPersistenceManager<Person>.store(array: people, withKey: persistenceKey)
+        JSONPersistenceManager<Person>().store(array: people, withKey: persistenceKey)
         
         //restore from disk
-        let restoredPeople = JSONPersistenceManager<Person>.restoreArray(withKey: persistenceKey)
+        let restoredPeople = JSONPersistenceManager<Person>().restoreArray(withKey: persistenceKey)
         
         //delete from disk
-        JSONPersistenceManager<Person>.removeObject(withKey: persistenceKey)
-
+        JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
     }
     
 }
