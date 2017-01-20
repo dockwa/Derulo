@@ -93,6 +93,19 @@ JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
 ```
 
 
+### From Data
+
+#### start with Data
+```swift
+guard let data = try? JSONSerialization.data(withJSONObject: jasonJSON, options: []) else { return }
+```
+
+#### map to object
+```swift
+let jasonPersonFromData = JSONMapper<Person>().map(data: data)
+print(jasonPersonFromData ?? "")
+```
+
 
 ### Example Implementation
 

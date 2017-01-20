@@ -72,7 +72,7 @@ public struct JSONPersistenceManager<T: JSONPersistable> {
 private struct JSONFileManager {
     
     
-    //MARK: - Load 
+    //MARK: - Load (Public API)
     
     static func loadJSON(withFilename filename: String) -> JSON? {
         return load(withFilename: filename) as? JSON
@@ -82,6 +82,7 @@ private struct JSONFileManager {
         return load(withFilename: filename) as? [JSON]
     }
 
+    //MARK: - Private Load 
     
     private static func load(withFilename filename: String) -> Any? {
         
@@ -91,7 +92,7 @@ private struct JSONFileManager {
             print(#function, "Couldn't create data from path \(path)")
             return nil
         }
-        
+                
         do {
             let json = try JSONSerialization.jsonObject(with: jsonData, options: .allowFragments)
             return json
@@ -105,7 +106,7 @@ private struct JSONFileManager {
     
     
     
-    //MARK: - Write 
+    //MARK: - Write (Public API)
     
     static func write(json: JSON, toFilename: String) {
         write(validJSON: json, toFilename: toFilename)
@@ -114,6 +115,9 @@ private struct JSONFileManager {
     static func write(jsonArray: [JSON], toFilename: String) {
         write(validJSON: jsonArray, toFilename: toFilename)
     }
+    
+    
+    //MARK: - Private Write 
     
     private static func write(validJSON json: Any, toFilename: String) {
         

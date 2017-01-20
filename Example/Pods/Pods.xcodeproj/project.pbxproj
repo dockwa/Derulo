@@ -47,7 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002D900A088B105BC8E829A5E8FA4427 /* Pods_Derulo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Derulo_Tests.framework; path = "Pods-Derulo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002D900A088B105BC8E829A5E8FA4427 /* Pods_Derulo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Derulo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0486DCB0EA259240172A7DD024E5DED9 /* Pods-Derulo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0AC3107ED8B5D27B5FC6A0976FF7541C /* Derulo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Derulo-dummy.m"; sourceTree = "<group>"; };
 		1D0F4972F61CB30BBFA5234A1B71E19A /* Pods-Derulo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Derulo_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		2D36CCB6D54DB246BF5A422E27B589D3 /* Pods-Derulo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Derulo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2EF7890E40D53DDF1974DE029CF4A669 /* JSONMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONMappable.swift; sourceTree = "<group>"; };
 		320A2054D21DEF74CBF91306AEB07C58 /* Pods-Derulo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34CB1E4CAF22FD9586188B4C0C5F2B4C /* Pods-Derulo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Derulo_Tests.modulemap"; sourceTree = "<group>"; };
+		34CB1E4CAF22FD9586188B4C0C5F2B4C /* Pods-Derulo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Derulo_Tests.modulemap"; sourceTree = "<group>"; };
 		363D5E2448F25639E8C54F68B465C3A6 /* JSONPersistenceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPersistenceConverter.swift; sourceTree = "<group>"; };
 		46FE44453F74CFF66F80460FFED325DA /* JSONMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
 		4B4DDC0BE0117BDCABE628D3503911E0 /* Pods-Derulo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Derulo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -64,16 +64,16 @@
 		6EF89C643E558A251DFE4B5833DF3922 /* JSONTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONTransform.swift; sourceTree = "<group>"; };
 		73CD8F102FB06599003AE27F9A1FBCDD /* Pods-Derulo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7AC35549D2313D7669FD221ED87806EB /* Pods-Derulo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81FAD1ED071FC21D9BD1A899D212CB48 /* Derulo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Derulo.modulemap; sourceTree = "<group>"; };
+		81FAD1ED071FC21D9BD1A899D212CB48 /* Derulo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Derulo.modulemap; sourceTree = "<group>"; };
 		84D5DA4000EFC12FD4E6950F85A4ED39 /* Pods-Derulo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		86115568D6A3F87A5C8FA19B1908AFCB /* JSONModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
 		88F97E4470E24D1F9145DA8803AA5692 /* JSONConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONConverter.swift; sourceTree = "<group>"; };
 		890982CF7E3701FD81F7368F386839A0 /* Pods-Derulo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Tests-resources.sh"; sourceTree = "<group>"; };
 		8BA8E3CEE7792DF16C3CACC8CF48BFC8 /* Pods-Derulo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D16A37237B9F045EF0007A087A4FF03 /* Pods-Derulo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Derulo_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94577CE7909DC0A920841E65BDD62368 /* Pods-Derulo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Derulo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		94E3C23BEADF4E14CB0BFC7CEF9C4E36 /* Derulo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Derulo.framework; path = Derulo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E3C23BEADF4E14CB0BFC7CEF9C4E36 /* Derulo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Derulo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05C65B911EE1599C6BC5BBC328DD2F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E7955C70E7371D3332C69DDBED6602 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7C72DED40CF7B0A5B2F56E7F04306CB /* JSONPersistenceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPersistenceManager.swift; sourceTree = "<group>"; };
@@ -84,9 +84,9 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBF53B940681E114EC47780D864182BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E89C28CA41309B97B348C67EEBDE03 /* Derulo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Derulo.xcconfig; sourceTree = "<group>"; };
-		EB6CC19CACF5F739AB75E37D867C6788 /* Pods_Derulo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Derulo_Example.framework; path = "Pods-Derulo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6CC19CACF5F739AB75E37D867C6788 /* Pods_Derulo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Derulo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F20819E4A79B378CC0F05152B03FD78C /* Derulo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Derulo-umbrella.h"; sourceTree = "<group>"; };
-		F31B706965F5DF0A82075196869BFEF9 /* Pods-Derulo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Derulo_Example.modulemap"; sourceTree = "<group>"; };
+		F31B706965F5DF0A82075196869BFEF9 /* Pods-Derulo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Derulo_Example.modulemap"; sourceTree = "<group>"; };
 		F36260BE0EDA020C8ABCA21DE2574159 /* JSONPersistable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPersistable.swift; sourceTree = "<group>"; };
 		F9EA4A40A6579A1F6D7D3E2D8E60E1C9 /* Pods-Derulo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +141,39 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Derulo";
+			sourceTree = "<group>";
+		};
+		45BE070A1E32A7F700E8DFA1 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7890E40D53DDF1974DE029CF4A669 /* JSONMappable.swift */,
+				C38EFABDD89934B802FEF3BB0580A7DE /* Identifiable.swift */,
+				5E3FC231153392ECE1F50DF9E9F49543 /* JSON.swift */,
+				AF76DF489A81FC283914D0FF629CA9AA /* JSONConvertible.swift */,
+				86115568D6A3F87A5C8FA19B1908AFCB /* JSONModel.swift */,
+				F36260BE0EDA020C8ABCA21DE2574159 /* JSONPersistable.swift */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		45BE070B1E32A80500E8DFA1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88F97E4470E24D1F9145DA8803AA5692 /* JSONConverter.swift */,
+				46FE44453F74CFF66F80460FFED325DA /* JSONMapper.swift */,
+				6EF89C643E558A251DFE4B5833DF3922 /* JSONTransform.swift */,
+				45BE070C1E32AA4A00E8DFA1 /* Persistence */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		45BE070C1E32AA4A00E8DFA1 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				363D5E2448F25639E8C54F68B465C3A6 /* JSONPersistenceConverter.swift */,
+				A7C72DED40CF7B0A5B2F56E7F04306CB /* JSONPersistenceManager.swift */,
+			);
+			name = Persistence;
 			sourceTree = "<group>";
 		};
 		6730325B2D8B7EFA6ABE42DF143423F6 /* Pods-Derulo_Tests */ = {
@@ -200,19 +233,9 @@
 		A56093E74FAD7B650BCEB226DF4C634C /* Derulo */ = {
 			isa = PBXGroup;
 			children = (
-				C38EFABDD89934B802FEF3BB0580A7DE /* Identifiable.swift */,
-				5E3FC231153392ECE1F50DF9E9F49543 /* JSON.swift */,
-				88F97E4470E24D1F9145DA8803AA5692 /* JSONConverter.swift */,
-				AF76DF489A81FC283914D0FF629CA9AA /* JSONConvertible.swift */,
-				2EF7890E40D53DDF1974DE029CF4A669 /* JSONMappable.swift */,
-				46FE44453F74CFF66F80460FFED325DA /* JSONMapper.swift */,
-				86115568D6A3F87A5C8FA19B1908AFCB /* JSONModel.swift */,
-				F36260BE0EDA020C8ABCA21DE2574159 /* JSONPersistable.swift */,
-				363D5E2448F25639E8C54F68B465C3A6 /* JSONPersistenceConverter.swift */,
-				A7C72DED40CF7B0A5B2F56E7F04306CB /* JSONPersistenceManager.swift */,
-				6EF89C643E558A251DFE4B5833DF3922 /* JSONTransform.swift */,
+				45BE070A1E32A7F700E8DFA1 /* Types */,
+				45BE070B1E32A80500E8DFA1 /* Helpers */,
 			);
-			name = Derulo;
 			path = Derulo;
 			sourceTree = "<group>";
 		};

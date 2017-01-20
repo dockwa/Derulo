@@ -28,11 +28,10 @@ public struct IntToStringTransform: JSONTransform {
     
     public init() {}
     
+    
     public func transform(fromJSON value: Any?) -> String? {
         
-        guard let value = value else {
-            return nil
-        }
+        guard let value = value else { return nil }
         
         let string = "\(value)"
         return string
@@ -40,9 +39,7 @@ public struct IntToStringTransform: JSONTransform {
     
     public func transform(toJSON value: String?) -> Int? {
         
-        guard let value = value else {
-            return nil
-        }
+        guard let value = value else { return nil }
         
         let number = Int(value)
         return number

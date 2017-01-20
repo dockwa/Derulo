@@ -29,7 +29,7 @@ public func == (lhs: JSON, rhs: JSON) -> Bool {
 
 
 
-///Merges two JSON objects, adding or overwriting the left-hand JSON entries with values from the right-hand JSON. 
+///Merges two JSON objects, adding or overwriting the left-hand JSON entries with values from the right-hand JSON.
 public func += <K, V> (left: inout [K:V], right: [K:V]) {
     for (k, v) in right {
         left.updateValue(v, forKey: k)

@@ -18,13 +18,13 @@ class Tests: XCTestCase {
     
     
     func testExample() {
-
+        
         //start with JSON
         var jasonJSON = [String : Any]()
         jasonJSON["id"] = 93
         jasonJSON["name"] = "Jason Derulo"
         
-        
+
         
         //MARK: - To / From JSON
         
@@ -59,6 +59,7 @@ class Tests: XCTestCase {
         print(peopleJSON ?? "")
         
         
+        
         //MARK: - Persistence
         
         let persistenceKey = "people"
@@ -75,6 +76,16 @@ class Tests: XCTestCase {
         
         //delete from disk
         JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
+        
+        
+        //MARK: - From Data
+        
+        //start with Data
+        guard let data = try? JSONSerialization.data(withJSONObject: jasonJSON, options: []) else { return }
+        
+        //map to object
+        let jasonPersonFromData = JSONMapper<Person>().map(data: data)
+        print(jasonPersonFromData ?? "")
     }
     
 }
