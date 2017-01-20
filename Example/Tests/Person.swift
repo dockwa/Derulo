@@ -19,8 +19,7 @@ extension Person: JSONMappable {
     init?(json: JSON?) {
         guard let json = json else { return nil }
         
-        guard let id = IntToStringTransform().transform(fromJSON: json["id"])
-        else {
+        guard let id = IntToStringTransform().transform(fromJSON: json["id"]) else {
             print(#function, String(describing: Person.self), "JSON missing required properties")
             return nil
         }
