@@ -1,4 +1,5 @@
 # Derulo
+[![Powered by Dockwa](https://raw.githubusercontent.com/dockwa/openpixel/dockwa/by-dockwa.png)](https://engineering.dockwa.com/)
 
 [![Version](https://img.shields.io/cocoapods/v/Derulo.svg?style=flat)](http://cocoapods.org/pods/Derulo)
 [![License](https://img.shields.io/cocoapods/l/Derulo.svg?style=flat)](http://cocoapods.org/pods/Derulo)
