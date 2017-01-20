@@ -95,7 +95,7 @@ JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
 
 
 
-### Example Implemention
+### Example Implementation
 
 ```swift
 struct Person: Identifiable {
