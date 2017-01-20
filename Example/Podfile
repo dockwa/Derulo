@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Derulo_Example' do
+  pod 'Derulo', :path => '../'
+
+  target 'Derulo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
