@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Derulo'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A flexible collection of Swift mixins to organize and manage translating between JSON and native Swift objects.'
 
   s.description      = <<-DESC
