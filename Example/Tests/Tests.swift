@@ -2,28 +2,91 @@ import UIKit
 import XCTest
 import Derulo
 
+
 class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock() {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testExample() {
+
+        //start with JSON
+        var jasonJSON = JSON()
+        jasonJSON["id"] = 93
+        jasonJSON["name"] = "Jason Derulo"
+        
+        
+        
+        //MARK: - To / From JSON
+        
+        
+        //parse into model object
+        let jasonPerson = Person(json: jasonJSON)
+        
+        //convert to JSON
+        let jasonPersonJSON = jasonPerson.asJSON
+        
+        
+        
+        //make another json
+        var jaySeanJSON = JSON()
+        jaySeanJSON["id"] = 57
+        jaySeanJSON["name"] = "Jay Sean"
+        
+        
+        
+        //MARK: - Arrays
+        
+        
+        //start with JSON an array of json
+        let jsonArray = [jasonJSON, jaySeanJSON]
+        
+        
+        //parse into model object
+        let people = JSONMapper<Person>().mapArray(json: jsonArray)
+        
+        //convert to JSON
+        let peopleJSON = JSONConverter<Person>().jsonArray(fromArray: people)
+        
+        
+        
+        //MARK: - Persistence
+        
+        let persistenceKey = "people"
+        
+        
+        //store on disk
+        JSONPersistenceManager<Person>.store(array: people, withKey: persistenceKey)
+        
+        //restore from disk
+        let restoredPeople = JSONPersistenceManager<Person>.restoreArray(withKey: persistenceKey)
+        
+        //delete from disk
+        JSONPersistenceManager<Person>.removeObject(withKey: persistenceKey)
+
     }
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

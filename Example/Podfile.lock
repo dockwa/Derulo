@@ -1,0 +1,16 @@
+PODS:
+  - Derulo (0.1.0)
+
+DEPENDENCIES:
+  - Derulo (from `../`)
+
+EXTERNAL SOURCES:
+  Derulo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Derulo: 63cde1f615a97cea1b0ee8dade82e6cb2d75ecb6
+
+PODFILE CHECKSUM: dc12ff41a1ece9e51c1f5a136e928c2f5097ba06
+
+COCOAPODS: 1.1.1
