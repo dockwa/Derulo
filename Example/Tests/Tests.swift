@@ -87,6 +87,7 @@ class Tests: XCTestCase {
         //map to object
         let jasonPersonFromData = JSONMapper<Person>().map(data: data)
         print(jasonPersonFromData ?? "")
+        
     }
     
 }

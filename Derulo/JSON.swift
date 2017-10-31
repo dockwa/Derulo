@@ -21,7 +21,7 @@ public typealias JSON = [JSONKey : JSONEntry]
 
 
 ///Equality for JSON objects.
-public func == (lhs: JSON, rhs: JSON) -> Bool {
+public func ==(lhs: JSON, rhs: JSON) -> Bool {
     let leftDict = NSDictionary(dictionary: lhs)
     let rightDict = NSDictionary(dictionary: rhs)
     return leftDict == rightDict
