@@ -34,7 +34,7 @@ public struct JSONMapper<T: JSONMappable> {
     public func mapArray(json: [JSON]?) -> [T]? {
         guard let json = json else { return nil }
         if json.isEmpty { return [] }
-        let mapped = json.flatMap{T(json: $0)}
+        let mapped = json.compactMap { T(json: $0) }
         return mapped
     }
     
