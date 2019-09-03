@@ -1,5 +1,5 @@
 PODS:
-  - Derulo (0.1.0)
+  - Derulo (1.5.0)
 
 DEPENDENCIES:
   - Derulo (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Derulo: 63cde1f615a97cea1b0ee8dade82e6cb2d75ecb6
+  Derulo: 7efd316f41742207e24644840db2553cc420a79d
 
 PODFILE CHECKSUM: 692061bd3b7acae6220d1ceb81812af79b94f78b
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.7.5

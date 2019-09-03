@@ -7,311 +7,297 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F6CF8E68FA509D883E3C98605FE49B0 /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7890E40D53DDF1974DE029CF4A669 /* JSONMappable.swift */; };
-		27756F38A9FE1D08C955BD694957C0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3756AA700F2B76930A39E13CCFD1ED2E /* JSONPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C72DED40CF7B0A5B2F56E7F04306CB /* JSONPersistenceManager.swift */; };
-		3FFF2F6962ADF20BF6150FA02F3A74DD /* JSONPersistenceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363D5E2448F25639E8C54F68B465C3A6 /* JSONPersistenceConverter.swift */; };
-		47CEC56CE3B044D1CF5738ADEBD98F62 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF76DF489A81FC283914D0FF629CA9AA /* JSONConvertible.swift */; };
-		49A818C93F79284BE5D90EF6760EC5D6 /* JSONPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36260BE0EDA020C8ABCA21DE2574159 /* JSONPersistable.swift */; };
-		50F8F89BC383ADDD06F567FF0C6AA8F8 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FE44453F74CFF66F80460FFED325DA /* JSONMapper.swift */; };
-		5F6A452B7029374F585D7A8433CEA624 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		687DD92E87EF1B3F828505DC84A9772D /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FC231153392ECE1F50DF9E9F49543 /* JSON.swift */; };
-		72F6DC84E6F320DB12D536A092B0D701 /* Pods-Derulo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0F4972F61CB30BBFA5234A1B71E19A /* Pods-Derulo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793249634B86361492AA000CAD77240E /* Pods-Derulo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D36CCB6D54DB246BF5A422E27B589D3 /* Pods-Derulo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81B1B130EE23B79841648266D9F0A9A0 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86115568D6A3F87A5C8FA19B1908AFCB /* JSONModel.swift */; };
-		8338C0C6B1A62ED39D87D03EE16E0ECA /* Pods-Derulo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D16A37237B9F045EF0007A087A4FF03 /* Pods-Derulo_Example-dummy.m */; };
-		8F94C9A9CA8A4B14C92D9D598886FB45 /* Derulo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F20819E4A79B378CC0F05152B03FD78C /* Derulo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C77D1DF3BBB891C83AE69BB6608A69D /* JSONTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF89C643E558A251DFE4B5833DF3922 /* JSONTransform.swift */; };
-		B27E3A61F9343C655812C7F6446A0BA7 /* JSONConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F97E4470E24D1F9145DA8803AA5692 /* JSONConverter.swift */; };
-		CBE2A0BD3287013422D821599BC83FEC /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EFABDD89934B802FEF3BB0580A7DE /* Identifiable.swift */; };
-		DE7A3D9CEF4BAA79E3973D697CAF7691 /* Derulo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC3107ED8B5D27B5FC6A0976FF7541C /* Derulo-dummy.m */; };
-		EFAEE7C71E4142DF3F4D1B9F3CC241A3 /* Pods-Derulo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF8E57911D2AF985DBD57E4E682ECF9 /* Pods-Derulo_Tests-dummy.m */; };
-		FAAE5A974D5AB220CD42B34E12773F50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1320B2B19D941BB654EEF30C3F2F8B8F /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565430958088CA43066D0AD59BE447B /* JSONMapper.swift */; };
+		1F3D96BAA65974A0FCB15D59C3623175 /* JSONPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC69AB7B046436A164A379073A0E88 /* JSONPersistable.swift */; };
+		2302E28CCDF982D4F97C3ED6BC10A8DC /* JSONTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6258B7BA576F0B14980984765B1245F /* JSONTransform.swift */; };
+		2EEE1B7E22688BE18AC75C3EC4405621 /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1B808FB6D4CD3552D8683FA0B72A8 /* JSONConvertible.swift */; };
+		2F0D0422E5146F3557CB239D7A45FD4F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F3EE92C75968B94941EDF04A01E946 /* JSON.swift */; };
+		5B0CBC14A81795BA4235BF518BAB59FB /* Derulo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C65BCCAB6995FB10631F461CFE7C4776 /* Derulo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6341A4071B8904629B792B8AE66E555A /* JSONConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B885F443DEEE28F1844DCE618F3714F /* JSONConverter.swift */; };
+		73B83C14C349F1FD83F9899A9087B789 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669F7AFCCC4A2BEB9B2173EFC8609C97 /* Identifiable.swift */; };
+		7E0676D9361614D10278E6448B8B1E1F /* JSONPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31068B0C1E9AEF1AA1AE22791073862D /* JSONPersistenceManager.swift */; };
+		9EC4451CECBF342CEFC15D99CD86B339 /* JSONPersistenceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B176AE1EB353932F2511DEBFBDECA3A /* JSONPersistenceConverter.swift */; };
+		9F119BB1E35A415B2B2AE80738E26E7D /* Derulo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 418EC3151ACCEC9425B528CC9534123B /* Derulo-dummy.m */; };
+		BA6216EAF1B806E63D2838172BFC48E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C1CDF9AD4FC955D1E9BCAF76D9AA3364 /* Pods-Derulo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 424207B058A933B90A01A4B2A56E4C7F /* Pods-Derulo_Example-dummy.m */; };
+		C8B6F847333E9F454511CFD3B60D99AA /* Pods-Derulo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D837A0DE81E2CD69CBAC7CD5F5D0CDF2 /* Pods-Derulo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA751A84E27D4BD5E7E912771F5C025 /* Pods-Derulo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D85B9576BFE198DD4E384DD078A4D9C7 /* Pods-Derulo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50CDD05A82AB6D802FC227E6A07334A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E6498E4EFD76129F160B8AC2555A2FCE /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3A58D0808FC193F45ABA7C83A6838 /* JSONMappable.swift */; };
+		E742540812688584C3ED33AF81217984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EAA7F2590C89F47CF24915D42AD1BAA3 /* Pods-Derulo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4BA16F2BCE7800C1E8055F9086E1F0 /* Pods-Derulo_Tests-dummy.m */; };
+		FAFD499AF7FA468A684A7918AB2D93FC /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B1232B34C1060F10B5332CCD20EFBA /* JSONModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32CAC2F97DF8E343B568255362A35639 /* PBXContainerItemProxy */ = {
+		222835E2F3DD7FC779CB8534F36D8183 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 475708248D81B9A03B948BDE4AB2EEAB;
+			remoteGlobalIDString = 017BF5CF81F13A97ADBEC1CB4406BC65;
 			remoteInfo = Derulo;
 		};
-		4277C46F128D788AF38BAD324277ECC4 /* PBXContainerItemProxy */ = {
+		39B786A5062B1C3AF72B1D83144B9A2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 475708248D81B9A03B948BDE4AB2EEAB;
+			remoteGlobalIDString = 017BF5CF81F13A97ADBEC1CB4406BC65;
 			remoteInfo = Derulo;
+		};
+		460FA77366D166062F34ECE15E826022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F72E543DF833D59BB7FE4EF6C27A993;
+			remoteInfo = "Pods-Derulo_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002D900A088B105BC8E829A5E8FA4427 /* Pods_Derulo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Derulo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0486DCB0EA259240172A7DD024E5DED9 /* Pods-Derulo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0AC3107ED8B5D27B5FC6A0976FF7541C /* Derulo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Derulo-dummy.m"; sourceTree = "<group>"; };
-		1D0F4972F61CB30BBFA5234A1B71E19A /* Pods-Derulo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Derulo_Example-umbrella.h"; sourceTree = "<group>"; };
-		2BBCF3C1C15A5D274943B7C07EE94E28 /* Pods-Derulo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Example-resources.sh"; sourceTree = "<group>"; };
-		2CF8E57911D2AF985DBD57E4E682ECF9 /* Pods-Derulo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Derulo_Tests-dummy.m"; sourceTree = "<group>"; };
-		2D36CCB6D54DB246BF5A422E27B589D3 /* Pods-Derulo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Derulo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2EF7890E40D53DDF1974DE029CF4A669 /* JSONMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONMappable.swift; sourceTree = "<group>"; };
-		320A2054D21DEF74CBF91306AEB07C58 /* Pods-Derulo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		34CB1E4CAF22FD9586188B4C0C5F2B4C /* Pods-Derulo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Derulo_Tests.modulemap"; sourceTree = "<group>"; };
-		363D5E2448F25639E8C54F68B465C3A6 /* JSONPersistenceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPersistenceConverter.swift; sourceTree = "<group>"; };
-		46FE44453F74CFF66F80460FFED325DA /* JSONMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
-		4B4DDC0BE0117BDCABE628D3503911E0 /* Pods-Derulo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Derulo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5E3FC231153392ECE1F50DF9E9F49543 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		6EF89C643E558A251DFE4B5833DF3922 /* JSONTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONTransform.swift; sourceTree = "<group>"; };
-		73CD8F102FB06599003AE27F9A1FBCDD /* Pods-Derulo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7AC35549D2313D7669FD221ED87806EB /* Pods-Derulo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81FAD1ED071FC21D9BD1A899D212CB48 /* Derulo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Derulo.modulemap; sourceTree = "<group>"; };
-		84D5DA4000EFC12FD4E6950F85A4ED39 /* Pods-Derulo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		86115568D6A3F87A5C8FA19B1908AFCB /* JSONModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
-		88F97E4470E24D1F9145DA8803AA5692 /* JSONConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONConverter.swift; sourceTree = "<group>"; };
-		890982CF7E3701FD81F7368F386839A0 /* Pods-Derulo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Tests-resources.sh"; sourceTree = "<group>"; };
-		8BA8E3CEE7792DF16C3CACC8CF48BFC8 /* Pods-Derulo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D16A37237B9F045EF0007A087A4FF03 /* Pods-Derulo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Derulo_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94577CE7909DC0A920841E65BDD62368 /* Pods-Derulo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Derulo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		94E3C23BEADF4E14CB0BFC7CEF9C4E36 /* Derulo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Derulo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A05C65B911EE1599C6BC5BBC328DD2F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1E7955C70E7371D3332C69DDBED6602 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7C72DED40CF7B0A5B2F56E7F04306CB /* JSONPersistenceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPersistenceManager.swift; sourceTree = "<group>"; };
-		AD9595FA13E2CEE5C2D4089744F5908B /* Derulo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Derulo-prefix.pch"; sourceTree = "<group>"; };
-		AF76DF489A81FC283914D0FF629CA9AA /* JSONConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
-		AFF18D7C21590E9F7BB1051DCD0770A8 /* Pods-Derulo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C38EFABDD89934B802FEF3BB0580A7DE /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DBF53B940681E114EC47780D864182BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8E89C28CA41309B97B348C67EEBDE03 /* Derulo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Derulo.xcconfig; sourceTree = "<group>"; };
-		EB6CC19CACF5F739AB75E37D867C6788 /* Pods_Derulo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Derulo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F20819E4A79B378CC0F05152B03FD78C /* Derulo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Derulo-umbrella.h"; sourceTree = "<group>"; };
-		F31B706965F5DF0A82075196869BFEF9 /* Pods-Derulo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Derulo_Example.modulemap"; sourceTree = "<group>"; };
-		F36260BE0EDA020C8ABCA21DE2574159 /* JSONPersistable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONPersistable.swift; sourceTree = "<group>"; };
-		F9EA4A40A6579A1F6D7D3E2D8E60E1C9 /* Pods-Derulo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		142D5E42A43034A51479ABB3F48B8E44 /* Pods-Derulo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Tests-Info.plist"; sourceTree = "<group>"; };
+		1691F1BFF9A0953C55AA70AC034B7E05 /* Pods-Derulo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Derulo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19F3EE92C75968B94941EDF04A01E946 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Derulo/JSON.swift; sourceTree = "<group>"; };
+		2B176AE1EB353932F2511DEBFBDECA3A /* JSONPersistenceConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONPersistenceConverter.swift; path = Derulo/JSONPersistenceConverter.swift; sourceTree = "<group>"; };
+		31068B0C1E9AEF1AA1AE22791073862D /* JSONPersistenceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONPersistenceManager.swift; path = Derulo/JSONPersistenceManager.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		418EC3151ACCEC9425B528CC9534123B /* Derulo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Derulo-dummy.m"; sourceTree = "<group>"; };
+		424207B058A933B90A01A4B2A56E4C7F /* Pods-Derulo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Derulo_Example-dummy.m"; sourceTree = "<group>"; };
+		4B1FF5E84B4D3699E92610F0046A8381 /* Pods-Derulo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4FCA11C46BDB16087C042CC6C16417B5 /* Derulo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Derulo.xcconfig; sourceTree = "<group>"; };
+		5547B44B848DB8868AF1DB1FA4164292 /* Derulo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Derulo-Info.plist"; sourceTree = "<group>"; };
+		62D8183A6C010EBD5569A32389F4CCBF /* Pods_Derulo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Derulo_Tests.framework; path = "Pods-Derulo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669F7AFCCC4A2BEB9B2173EFC8609C97 /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = Derulo/Identifiable.swift; sourceTree = "<group>"; };
+		68101B70279763DBF7AC7A5FCFB81F9F /* Pods-Derulo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Derulo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68D15AF8EA6BA62C4D1563F646A822CC /* Pods-Derulo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		726CD760889C462FB4401A4655E35C4F /* Derulo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Derulo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7850D37D734A9B893B7DB7B3C26CEE78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7982F4E53CC4D207EE7B43C2753BCCC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		83B1232B34C1060F10B5332CCD20EFBA /* JSONModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONModel.swift; path = Derulo/JSONModel.swift; sourceTree = "<group>"; };
+		8C5E64F88CA3A1AB969DC35ACC84D3F6 /* Pods-Derulo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D461C644672A505AA9BBFB4B66E1F32 /* Pods-Derulo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9565430958088CA43066D0AD59BE447B /* JSONMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMapper.swift; path = Derulo/JSONMapper.swift; sourceTree = "<group>"; };
+		95F1B808FB6D4CD3552D8683FA0B72A8 /* JSONConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONConvertible.swift; path = Derulo/JSONConvertible.swift; sourceTree = "<group>"; };
+		9B4BA16F2BCE7800C1E8055F9086E1F0 /* Pods-Derulo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Derulo_Tests-dummy.m"; sourceTree = "<group>"; };
+		9B885F443DEEE28F1844DCE618F3714F /* JSONConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONConverter.swift; path = Derulo/JSONConverter.swift; sourceTree = "<group>"; };
+		9CAC69AB7B046436A164A379073A0E88 /* JSONPersistable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONPersistable.swift; path = Derulo/JSONPersistable.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A23C8597F42F386647D7A6B095400408 /* Pods-Derulo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Derulo_Example.modulemap"; sourceTree = "<group>"; };
+		A4B3A58D0808FC193F45ABA7C83A6838 /* JSONMappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMappable.swift; path = Derulo/JSONMappable.swift; sourceTree = "<group>"; };
+		C6258B7BA576F0B14980984765B1245F /* JSONTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONTransform.swift; path = Derulo/JSONTransform.swift; sourceTree = "<group>"; };
+		C65BCCAB6995FB10631F461CFE7C4776 /* Derulo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Derulo-umbrella.h"; sourceTree = "<group>"; };
+		CF12754F69CDBA3F159F286AE1751794 /* Pods-Derulo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Derulo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D115B8BA1A2F20E6AD6220D32D5C9FE9 /* Derulo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Derulo.framework; path = Derulo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B3D3D640182B2DC9B16D09CF1DC8CD /* Pods-Derulo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D2EEF5980D8073081AC1D741EBBA7488 /* Derulo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Derulo-prefix.pch"; sourceTree = "<group>"; };
+		D837A0DE81E2CD69CBAC7CD5F5D0CDF2 /* Pods-Derulo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Derulo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D85B9576BFE198DD4E384DD078A4D9C7 /* Pods-Derulo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Derulo_Example-umbrella.h"; sourceTree = "<group>"; };
+		D95A2E07553FAD1FD94F47C98771165F /* Pods-Derulo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E7325CE25043C20336F43F97D91245C0 /* Pods_Derulo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Derulo_Example.framework; path = "Pods-Derulo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A566908C6F8F863B548710AF0475FD /* Pods-Derulo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Derulo_Example-Info.plist"; sourceTree = "<group>"; };
+		F11E1CDA0FD87BF202B0A5C08454009C /* Pods-Derulo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Derulo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FE8CCB055C087593DCD21333F70FD34C /* Derulo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Derulo.modulemap; sourceTree = "<group>"; };
+		FE9BF2D91638B059F138D743A09C81D1 /* Pods-Derulo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Derulo_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B2038781952EE9F55D0A805647B6A02 /* Frameworks */ = {
+		0930D5425BCD67EC3D32F1E67CA21E0B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAAE5A974D5AB220CD42B34E12773F50 /* Foundation.framework in Frameworks */,
+				BA6216EAF1B806E63D2838172BFC48E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E909A28F1F3B4134A26B31471570F466 /* Frameworks */ = {
+		80F0384DF241B764352F1B08EE6B6ECF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6A452B7029374F585D7A8433CEA624 /* Foundation.framework in Frameworks */,
+				E742540812688584C3ED33AF81217984 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED072D03FB93ECB4DEFC8FF850B07FBA /* Frameworks */ = {
+		81B2BE08A82850E23739EF163891A4F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27756F38A9FE1D08C955BD694957C0C7 /* Foundation.framework in Frameworks */,
+				E50CDD05A82AB6D802FC227E6A07334A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2833F0EB8C999CB96820A4652628464A /* Derulo */ = {
+		32119F50702E8D1FA98ACD1EAAAAD3ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A56093E74FAD7B650BCEB226DF4C634C /* Derulo */,
-				3F1CD3D62FBC146B21A5FF49EF985E37 /* Support Files */,
+				D115B8BA1A2F20E6AD6220D32D5C9FE9 /* Derulo.framework */,
+				E7325CE25043C20336F43F97D91245C0 /* Pods_Derulo_Example.framework */,
+				62D8183A6C010EBD5569A32389F4CCBF /* Pods_Derulo_Tests.framework */,
 			);
-			name = Derulo;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		3F1CD3D62FBC146B21A5FF49EF985E37 /* Support Files */ = {
+		382BE0F3406FBFD4029CC0759CDBCCE5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				81FAD1ED071FC21D9BD1A899D212CB48 /* Derulo.modulemap */,
-				E8E89C28CA41309B97B348C67EEBDE03 /* Derulo.xcconfig */,
-				0AC3107ED8B5D27B5FC6A0976FF7541C /* Derulo-dummy.m */,
-				AD9595FA13E2CEE5C2D4089744F5908B /* Derulo-prefix.pch */,
-				F20819E4A79B378CC0F05152B03FD78C /* Derulo-umbrella.h */,
-				A1E7955C70E7371D3332C69DDBED6602 /* Info.plist */,
+				6250F2409D042FFF8F361734A0DFEC87 /* Pods-Derulo_Example */,
+				4749D6B6D8AAF692AD06ADFB86829FEB /* Pods-Derulo_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Derulo";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		45BE070A1E32A7F700E8DFA1 /* Types */ = {
+		4749D6B6D8AAF692AD06ADFB86829FEB /* Pods-Derulo_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5E3FC231153392ECE1F50DF9E9F49543 /* JSON.swift */,
-				2EF7890E40D53DDF1974DE029CF4A669 /* JSONMappable.swift */,
-				AF76DF489A81FC283914D0FF629CA9AA /* JSONConvertible.swift */,
-				C38EFABDD89934B802FEF3BB0580A7DE /* Identifiable.swift */,
-				86115568D6A3F87A5C8FA19B1908AFCB /* JSONModel.swift */,
-				F36260BE0EDA020C8ABCA21DE2574159 /* JSONPersistable.swift */,
-			);
-			name = Types;
-			sourceTree = "<group>";
-		};
-		45BE070B1E32A80500E8DFA1 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				88F97E4470E24D1F9145DA8803AA5692 /* JSONConverter.swift */,
-				46FE44453F74CFF66F80460FFED325DA /* JSONMapper.swift */,
-				6EF89C643E558A251DFE4B5833DF3922 /* JSONTransform.swift */,
-				45BE070C1E32AA4A00E8DFA1 /* Persistence */,
-			);
-			name = Helpers;
-			sourceTree = "<group>";
-		};
-		45BE070C1E32AA4A00E8DFA1 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				363D5E2448F25639E8C54F68B465C3A6 /* JSONPersistenceConverter.swift */,
-				A7C72DED40CF7B0A5B2F56E7F04306CB /* JSONPersistenceManager.swift */,
-			);
-			name = Persistence;
-			sourceTree = "<group>";
-		};
-		6730325B2D8B7EFA6ABE42DF143423F6 /* Pods-Derulo_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A05C65B911EE1599C6BC5BBC328DD2F6 /* Info.plist */,
-				34CB1E4CAF22FD9586188B4C0C5F2B4C /* Pods-Derulo_Tests.modulemap */,
-				94577CE7909DC0A920841E65BDD62368 /* Pods-Derulo_Tests-acknowledgements.markdown */,
-				8BA8E3CEE7792DF16C3CACC8CF48BFC8 /* Pods-Derulo_Tests-acknowledgements.plist */,
-				2CF8E57911D2AF985DBD57E4E682ECF9 /* Pods-Derulo_Tests-dummy.m */,
-				84D5DA4000EFC12FD4E6950F85A4ED39 /* Pods-Derulo_Tests-frameworks.sh */,
-				890982CF7E3701FD81F7368F386839A0 /* Pods-Derulo_Tests-resources.sh */,
-				2D36CCB6D54DB246BF5A422E27B589D3 /* Pods-Derulo_Tests-umbrella.h */,
-				320A2054D21DEF74CBF91306AEB07C58 /* Pods-Derulo_Tests.debug.xcconfig */,
-				7AC35549D2313D7669FD221ED87806EB /* Pods-Derulo_Tests.release.xcconfig */,
+				FE9BF2D91638B059F138D743A09C81D1 /* Pods-Derulo_Tests.modulemap */,
+				1691F1BFF9A0953C55AA70AC034B7E05 /* Pods-Derulo_Tests-acknowledgements.markdown */,
+				68D15AF8EA6BA62C4D1563F646A822CC /* Pods-Derulo_Tests-acknowledgements.plist */,
+				9B4BA16F2BCE7800C1E8055F9086E1F0 /* Pods-Derulo_Tests-dummy.m */,
+				4B1FF5E84B4D3699E92610F0046A8381 /* Pods-Derulo_Tests-frameworks.sh */,
+				142D5E42A43034A51479ABB3F48B8E44 /* Pods-Derulo_Tests-Info.plist */,
+				D837A0DE81E2CD69CBAC7CD5F5D0CDF2 /* Pods-Derulo_Tests-umbrella.h */,
+				8D461C644672A505AA9BBFB4B66E1F32 /* Pods-Derulo_Tests.debug.xcconfig */,
+				F11E1CDA0FD87BF202B0A5C08454009C /* Pods-Derulo_Tests.release.xcconfig */,
 			);
 			name = "Pods-Derulo_Tests";
 			path = "Target Support Files/Pods-Derulo_Tests";
 			sourceTree = "<group>";
 		};
-		722E1E16E05814CB465E220C75E690CF /* Development Pods */ = {
+		6250F2409D042FFF8F361734A0DFEC87 /* Pods-Derulo_Example */ = {
 			isa = PBXGroup;
 			children = (
-				2833F0EB8C999CB96820A4652628464A /* Derulo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				722E1E16E05814CB465E220C75E690CF /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F5229681C230CB060CB11BA884A96D5E /* Products */,
-				80BBC38C78FFC5BCAB9F74ADFF13F3C0 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		80BBC38C78FFC5BCAB9F74ADFF13F3C0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3A4731D076EBB5167F01A862793D7C8 /* Pods-Derulo_Example */,
-				6730325B2D8B7EFA6ABE42DF143423F6 /* Pods-Derulo_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A56093E74FAD7B650BCEB226DF4C634C /* Derulo */ = {
-			isa = PBXGroup;
-			children = (
-				45BE070A1E32A7F700E8DFA1 /* Types */,
-				45BE070B1E32A80500E8DFA1 /* Helpers */,
-			);
-			path = Derulo;
-			sourceTree = "<group>";
-		};
-		B3A4731D076EBB5167F01A862793D7C8 /* Pods-Derulo_Example */ = {
-			isa = PBXGroup;
-			children = (
-				DBF53B940681E114EC47780D864182BB /* Info.plist */,
-				F31B706965F5DF0A82075196869BFEF9 /* Pods-Derulo_Example.modulemap */,
-				4B4DDC0BE0117BDCABE628D3503911E0 /* Pods-Derulo_Example-acknowledgements.markdown */,
-				AFF18D7C21590E9F7BB1051DCD0770A8 /* Pods-Derulo_Example-acknowledgements.plist */,
-				8D16A37237B9F045EF0007A087A4FF03 /* Pods-Derulo_Example-dummy.m */,
-				F9EA4A40A6579A1F6D7D3E2D8E60E1C9 /* Pods-Derulo_Example-frameworks.sh */,
-				2BBCF3C1C15A5D274943B7C07EE94E28 /* Pods-Derulo_Example-resources.sh */,
-				1D0F4972F61CB30BBFA5234A1B71E19A /* Pods-Derulo_Example-umbrella.h */,
-				73CD8F102FB06599003AE27F9A1FBCDD /* Pods-Derulo_Example.debug.xcconfig */,
-				0486DCB0EA259240172A7DD024E5DED9 /* Pods-Derulo_Example.release.xcconfig */,
+				A23C8597F42F386647D7A6B095400408 /* Pods-Derulo_Example.modulemap */,
+				68101B70279763DBF7AC7A5FCFB81F9F /* Pods-Derulo_Example-acknowledgements.markdown */,
+				8C5E64F88CA3A1AB969DC35ACC84D3F6 /* Pods-Derulo_Example-acknowledgements.plist */,
+				424207B058A933B90A01A4B2A56E4C7F /* Pods-Derulo_Example-dummy.m */,
+				CF12754F69CDBA3F159F286AE1751794 /* Pods-Derulo_Example-frameworks.sh */,
+				E8A566908C6F8F863B548710AF0475FD /* Pods-Derulo_Example-Info.plist */,
+				D85B9576BFE198DD4E384DD078A4D9C7 /* Pods-Derulo_Example-umbrella.h */,
+				D1B3D3D640182B2DC9B16D09CF1DC8CD /* Pods-Derulo_Example.debug.xcconfig */,
+				D95A2E07553FAD1FD94F47C98771165F /* Pods-Derulo_Example.release.xcconfig */,
 			);
 			name = "Pods-Derulo_Example";
 			path = "Target Support Files/Pods-Derulo_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		7EFE7511E4BE708EB678B5614AA03C18 /* Derulo */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				669F7AFCCC4A2BEB9B2173EFC8609C97 /* Identifiable.swift */,
+				19F3EE92C75968B94941EDF04A01E946 /* JSON.swift */,
+				9B885F443DEEE28F1844DCE618F3714F /* JSONConverter.swift */,
+				95F1B808FB6D4CD3552D8683FA0B72A8 /* JSONConvertible.swift */,
+				A4B3A58D0808FC193F45ABA7C83A6838 /* JSONMappable.swift */,
+				9565430958088CA43066D0AD59BE447B /* JSONMapper.swift */,
+				83B1232B34C1060F10B5332CCD20EFBA /* JSONModel.swift */,
+				9CAC69AB7B046436A164A379073A0E88 /* JSONPersistable.swift */,
+				2B176AE1EB353932F2511DEBFBDECA3A /* JSONPersistenceConverter.swift */,
+				31068B0C1E9AEF1AA1AE22791073862D /* JSONPersistenceManager.swift */,
+				C6258B7BA576F0B14980984765B1245F /* JSONTransform.swift */,
+				F6B4C4177DA087B306DBA495F93C4E7F /* Pod */,
+				C1F51349E951A7D392682BC9712EAE98 /* Support Files */,
+			);
+			name = Derulo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9D7E2E65C0D36467ACB60EAF53069E87 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EFE7511E4BE708EB678B5614AA03C18 /* Derulo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1F51349E951A7D392682BC9712EAE98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE8CCB055C087593DCD21333F70FD34C /* Derulo.modulemap */,
+				4FCA11C46BDB16087C042CC6C16417B5 /* Derulo.xcconfig */,
+				418EC3151ACCEC9425B528CC9534123B /* Derulo-dummy.m */,
+				5547B44B848DB8868AF1DB1FA4164292 /* Derulo-Info.plist */,
+				D2EEF5980D8073081AC1D741EBBA7488 /* Derulo-prefix.pch */,
+				C65BCCAB6995FB10631F461CFE7C4776 /* Derulo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Derulo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9D7E2E65C0D36467ACB60EAF53069E87 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				32119F50702E8D1FA98ACD1EAAAAD3ED /* Products */,
+				382BE0F3406FBFD4029CC0759CDBCCE5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F5229681C230CB060CB11BA884A96D5E /* Products */ = {
+		F6B4C4177DA087B306DBA495F93C4E7F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				94E3C23BEADF4E14CB0BFC7CEF9C4E36 /* Derulo.framework */,
-				EB6CC19CACF5F739AB75E37D867C6788 /* Pods_Derulo_Example.framework */,
-				002D900A088B105BC8E829A5E8FA4427 /* Pods_Derulo_Tests.framework */,
+				726CD760889C462FB4401A4655E35C4F /* Derulo.podspec */,
+				7850D37D734A9B893B7DB7B3C26CEE78 /* LICENSE */,
+				7982F4E53CC4D207EE7B43C2753BCCC0 /* README.md */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C09EAA7501247B49DC829EC449274A76 /* Headers */ = {
+		11667A2990CB3689E427460D0C4F8F01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F94C9A9CA8A4B14C92D9D598886FB45 /* Derulo-umbrella.h in Headers */,
+				DCA751A84E27D4BD5E7E912771F5C025 /* Pods-Derulo_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8B188635D569CD402FD7C1AE4A434ED /* Headers */ = {
+		8A57906B9CB32B2677998C6E6B66EBC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72F6DC84E6F320DB12D536A092B0D701 /* Pods-Derulo_Example-umbrella.h in Headers */,
+				5B0CBC14A81795BA4235BF518BAB59FB /* Derulo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FED34C848FEC4D49F2D26ACE390ED609 /* Headers */ = {
+		E8871DECEAE0409910284AD96A8A3C2A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793249634B86361492AA000CAD77240E /* Pods-Derulo_Tests-umbrella.h in Headers */,
+				C8B6F847333E9F454511CFD3B60D99AA /* Pods-Derulo_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		475708248D81B9A03B948BDE4AB2EEAB /* Derulo */ = {
+		017BF5CF81F13A97ADBEC1CB4406BC65 /* Derulo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D26B77034EA4C9A245FE9D4654677F0 /* Build configuration list for PBXNativeTarget "Derulo" */;
+			buildConfigurationList = CC8A1813D1762606D52D5A044B4B9F3B /* Build configuration list for PBXNativeTarget "Derulo" */;
 			buildPhases = (
-				825598BC4E053ABD9BDA5719850A0F8D /* Sources */,
-				E909A28F1F3B4134A26B31471570F466 /* Frameworks */,
-				C09EAA7501247B49DC829EC449274A76 /* Headers */,
+				8A57906B9CB32B2677998C6E6B66EBC5 /* Headers */,
+				EEAB1A374093F33C75D555162B8499D5 /* Sources */,
+				80F0384DF241B764352F1B08EE6B6ECF /* Frameworks */,
+				8B584854CA7E4B7CD0D9AAA2571741D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -319,214 +305,178 @@
 			);
 			name = Derulo;
 			productName = Derulo;
-			productReference = 94E3C23BEADF4E14CB0BFC7CEF9C4E36 /* Derulo.framework */;
+			productReference = D115B8BA1A2F20E6AD6220D32D5C9FE9 /* Derulo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		51321B1D33392C2047E5C9949EBF5E2A /* Pods-Derulo_Tests */ = {
+		17AC932AC633019C07D24858FB9CD166 /* Pods-Derulo_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93848B92489C97744A471E509BEA73BA /* Build configuration list for PBXNativeTarget "Pods-Derulo_Tests" */;
+			buildConfigurationList = 5BCDFDB5CB1B910DD2FC119B2F422AF6 /* Build configuration list for PBXNativeTarget "Pods-Derulo_Tests" */;
 			buildPhases = (
-				D6A20592AA49ED6486CECBE9A1522E64 /* Sources */,
-				7B2038781952EE9F55D0A805647B6A02 /* Frameworks */,
-				FED34C848FEC4D49F2D26ACE390ED609 /* Headers */,
+				E8871DECEAE0409910284AD96A8A3C2A /* Headers */,
+				24EEDD49EDCA3093E7DC670F07809850 /* Sources */,
+				0930D5425BCD67EC3D32F1E67CA21E0B /* Frameworks */,
+				405B4EF57801FB9E6BD14B0189D71990 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E9F55C8DAF857CE9470FFF05C01E5E73 /* PBXTargetDependency */,
+				4086890E3A740092F5DEB975764E0CDC /* PBXTargetDependency */,
+				48A97C208CA63EADFC1A0EEA718063F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-Derulo_Tests";
 			productName = "Pods-Derulo_Tests";
-			productReference = 002D900A088B105BC8E829A5E8FA4427 /* Pods_Derulo_Tests.framework */;
+			productReference = 62D8183A6C010EBD5569A32389F4CCBF /* Pods_Derulo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B9662C2884AEDC7EAC437F4937B19DAD /* Pods-Derulo_Example */ = {
+		5F72E543DF833D59BB7FE4EF6C27A993 /* Pods-Derulo_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7EEB646ACB1EBAB8C41ADF8EBF5405F /* Build configuration list for PBXNativeTarget "Pods-Derulo_Example" */;
+			buildConfigurationList = 4FE1A0B7D51286F447441AFF0516EFB9 /* Build configuration list for PBXNativeTarget "Pods-Derulo_Example" */;
 			buildPhases = (
-				9E9820B197E34F18AD3A272B00052BA9 /* Sources */,
-				ED072D03FB93ECB4DEFC8FF850B07FBA /* Frameworks */,
-				E8B188635D569CD402FD7C1AE4A434ED /* Headers */,
+				11667A2990CB3689E427460D0C4F8F01 /* Headers */,
+				014FD000A91C3972158FBFA986C0C836 /* Sources */,
+				81B2BE08A82850E23739EF163891A4F5 /* Frameworks */,
+				30072DB59D38E3E6F0BB64391B0451EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F2A208D4EB1BC283F42C06B35D50BD5E /* PBXTargetDependency */,
+				01CD6E65E9AE4803290B2E5CD1309C69 /* PBXTargetDependency */,
 			);
 			name = "Pods-Derulo_Example";
 			productName = "Pods-Derulo_Example";
-			productReference = EB6CC19CACF5F739AB75E37D867C6788 /* Pods_Derulo_Example.framework */;
+			productReference = E7325CE25043C20336F43F97D91245C0 /* Pods_Derulo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1020;
-				TargetAttributes = {
-					475708248D81B9A03B948BDE4AB2EEAB = {
-						LastSwiftMigration = 1020;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F5229681C230CB060CB11BA884A96D5E /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 32119F50702E8D1FA98ACD1EAAAAD3ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				475708248D81B9A03B948BDE4AB2EEAB /* Derulo */,
-				B9662C2884AEDC7EAC437F4937B19DAD /* Pods-Derulo_Example */,
-				51321B1D33392C2047E5C9949EBF5E2A /* Pods-Derulo_Tests */,
+				017BF5CF81F13A97ADBEC1CB4406BC65 /* Derulo */,
+				5F72E543DF833D59BB7FE4EF6C27A993 /* Pods-Derulo_Example */,
+				17AC932AC633019C07D24858FB9CD166 /* Pods-Derulo_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		30072DB59D38E3E6F0BB64391B0451EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405B4EF57801FB9E6BD14B0189D71990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B584854CA7E4B7CD0D9AAA2571741D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		825598BC4E053ABD9BDA5719850A0F8D /* Sources */ = {
+		014FD000A91C3972158FBFA986C0C836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7A3D9CEF4BAA79E3973D697CAF7691 /* Derulo-dummy.m in Sources */,
-				CBE2A0BD3287013422D821599BC83FEC /* Identifiable.swift in Sources */,
-				687DD92E87EF1B3F828505DC84A9772D /* JSON.swift in Sources */,
-				B27E3A61F9343C655812C7F6446A0BA7 /* JSONConverter.swift in Sources */,
-				47CEC56CE3B044D1CF5738ADEBD98F62 /* JSONConvertible.swift in Sources */,
-				1F6CF8E68FA509D883E3C98605FE49B0 /* JSONMappable.swift in Sources */,
-				50F8F89BC383ADDD06F567FF0C6AA8F8 /* JSONMapper.swift in Sources */,
-				81B1B130EE23B79841648266D9F0A9A0 /* JSONModel.swift in Sources */,
-				49A818C93F79284BE5D90EF6760EC5D6 /* JSONPersistable.swift in Sources */,
-				3FFF2F6962ADF20BF6150FA02F3A74DD /* JSONPersistenceConverter.swift in Sources */,
-				3756AA700F2B76930A39E13CCFD1ED2E /* JSONPersistenceManager.swift in Sources */,
-				9C77D1DF3BBB891C83AE69BB6608A69D /* JSONTransform.swift in Sources */,
+				C1CDF9AD4FC955D1E9BCAF76D9AA3364 /* Pods-Derulo_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E9820B197E34F18AD3A272B00052BA9 /* Sources */ = {
+		24EEDD49EDCA3093E7DC670F07809850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8338C0C6B1A62ED39D87D03EE16E0ECA /* Pods-Derulo_Example-dummy.m in Sources */,
+				EAA7F2590C89F47CF24915D42AD1BAA3 /* Pods-Derulo_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6A20592AA49ED6486CECBE9A1522E64 /* Sources */ = {
+		EEAB1A374093F33C75D555162B8499D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFAEE7C71E4142DF3F4D1B9F3CC241A3 /* Pods-Derulo_Tests-dummy.m in Sources */,
+				9F119BB1E35A415B2B2AE80738E26E7D /* Derulo-dummy.m in Sources */,
+				73B83C14C349F1FD83F9899A9087B789 /* Identifiable.swift in Sources */,
+				2F0D0422E5146F3557CB239D7A45FD4F /* JSON.swift in Sources */,
+				6341A4071B8904629B792B8AE66E555A /* JSONConverter.swift in Sources */,
+				2EEE1B7E22688BE18AC75C3EC4405621 /* JSONConvertible.swift in Sources */,
+				E6498E4EFD76129F160B8AC2555A2FCE /* JSONMappable.swift in Sources */,
+				1320B2B19D941BB654EEF30C3F2F8B8F /* JSONMapper.swift in Sources */,
+				FAFD499AF7FA468A684A7918AB2D93FC /* JSONModel.swift in Sources */,
+				1F3D96BAA65974A0FCB15D59C3623175 /* JSONPersistable.swift in Sources */,
+				9EC4451CECBF342CEFC15D99CD86B339 /* JSONPersistenceConverter.swift in Sources */,
+				7E0676D9361614D10278E6448B8B1E1F /* JSONPersistenceManager.swift in Sources */,
+				2302E28CCDF982D4F97C3ED6BC10A8DC /* JSONTransform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E9F55C8DAF857CE9470FFF05C01E5E73 /* PBXTargetDependency */ = {
+		01CD6E65E9AE4803290B2E5CD1309C69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Derulo;
-			target = 475708248D81B9A03B948BDE4AB2EEAB /* Derulo */;
-			targetProxy = 32CAC2F97DF8E343B568255362A35639 /* PBXContainerItemProxy */;
+			target = 017BF5CF81F13A97ADBEC1CB4406BC65 /* Derulo */;
+			targetProxy = 222835E2F3DD7FC779CB8534F36D8183 /* PBXContainerItemProxy */;
 		};
-		F2A208D4EB1BC283F42C06B35D50BD5E /* PBXTargetDependency */ = {
+		4086890E3A740092F5DEB975764E0CDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Derulo;
-			target = 475708248D81B9A03B948BDE4AB2EEAB /* Derulo */;
-			targetProxy = 4277C46F128D788AF38BAD324277ECC4 /* PBXContainerItemProxy */;
+			target = 017BF5CF81F13A97ADBEC1CB4406BC65 /* Derulo */;
+			targetProxy = 39B786A5062B1C3AF72B1D83144B9A2A /* PBXContainerItemProxy */;
+		};
+		48A97C208CA63EADFC1A0EEA718063F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Derulo_Example";
+			target = 5F72E543DF833D59BB7FE4EF6C27A993 /* Pods-Derulo_Example */;
+			targetProxy = 460FA77366D166062F34ECE15E826022 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B19C33DA87D3D671F0992D07281BEA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8E89C28CA41309B97B348C67EEBDE03 /* Derulo.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Derulo/Derulo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Derulo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Derulo/Derulo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Derulo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E7C7A3FC3DE913655AD6477B47E2BAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8E89C28CA41309B97B348C67EEBDE03 /* Derulo.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Derulo/Derulo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Derulo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Derulo/Derulo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Derulo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -534,89 +484,92 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		91F8B196FA5469AA3B244DD309DEA43C /* Release */ = {
+		6CA2DFF8029F7BC7D35F9714CD76E4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC35549D2313D7669FD221ED87806EB /* Pods-Derulo_Tests.release.xcconfig */;
+			baseConfigurationReference = 8D461C644672A505AA9BBFB4B66E1F32 /* Pods-Derulo_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Tests/Pods-Derulo_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Derulo_Tests/Pods-Derulo_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Derulo_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -624,17 +577,18 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -643,171 +597,229 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E7D6E5F03923CFF6C950051588874674 /* Debug */ = {
+		BB748195A81AE30C0495FAB742EA7F16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 320A2054D21DEF74CBF91306AEB07C58 /* Pods-Derulo_Tests.debug.xcconfig */;
+			baseConfigurationReference = D95A2E07553FAD1FD94F47C98771165F /* Pods-Derulo_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Derulo_Tests/Pods-Derulo_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Derulo_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F8B3F0DB6B24653391326F1CD39F919C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0486DCB0EA259240172A7DD024E5DED9 /* Pods-Derulo_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Example/Pods-Derulo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Derulo_Example/Pods-Derulo_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Derulo_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FC912ED5F706E45398F5E84A175479C3 /* Debug */ = {
+		DC391F33185B3EE30ED6A0BFA503D9DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73CD8F102FB06599003AE27F9A1FBCDD /* Pods-Derulo_Example.debug.xcconfig */;
+			baseConfigurationReference = F11E1CDA0FD87BF202B0A5C08454009C /* Pods-Derulo_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Tests/Pods-Derulo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Derulo_Tests/Pods-Derulo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFDFE7567EA26CAA9B0A6A8CD856DF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B3D3D640182B2DC9B16D09CF1DC8CD /* Pods-Derulo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Derulo_Example/Pods-Derulo_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Derulo_Example/Pods-Derulo_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Derulo_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		F2692609DA755B38505C1B8F0FEB9F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCA11C46BDB16087C042CC6C16417B5 /* Derulo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Derulo/Derulo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Derulo/Derulo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Derulo/Derulo.modulemap";
+				PRODUCT_MODULE_NAME = Derulo;
+				PRODUCT_NAME = Derulo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCB80D6FC375A06B7976B5C9D4E97241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCA11C46BDB16087C042CC6C16417B5 /* Derulo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Derulo/Derulo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Derulo/Derulo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Derulo/Derulo.modulemap";
+				PRODUCT_MODULE_NAME = Derulo;
+				PRODUCT_NAME = Derulo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				7E1F3D358966F24610AD782F313B4C40 /* Debug */,
+				60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D26B77034EA4C9A245FE9D4654677F0 /* Build configuration list for PBXNativeTarget "Derulo" */ = {
+		4FE1A0B7D51286F447441AFF0516EFB9 /* Build configuration list for PBXNativeTarget "Pods-Derulo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B19C33DA87D3D671F0992D07281BEA1 /* Debug */,
-				2E7C7A3FC3DE913655AD6477B47E2BAE /* Release */,
+				EFDFE7567EA26CAA9B0A6A8CD856DF83 /* Debug */,
+				BB748195A81AE30C0495FAB742EA7F16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93848B92489C97744A471E509BEA73BA /* Build configuration list for PBXNativeTarget "Pods-Derulo_Tests" */ = {
+		5BCDFDB5CB1B910DD2FC119B2F422AF6 /* Build configuration list for PBXNativeTarget "Pods-Derulo_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7D6E5F03923CFF6C950051588874674 /* Debug */,
-				91F8B196FA5469AA3B244DD309DEA43C /* Release */,
+				6CA2DFF8029F7BC7D35F9714CD76E4D5 /* Debug */,
+				DC391F33185B3EE30ED6A0BFA503D9DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7EEB646ACB1EBAB8C41ADF8EBF5405F /* Build configuration list for PBXNativeTarget "Pods-Derulo_Example" */ = {
+		CC8A1813D1762606D52D5A044B4B9F3B /* Build configuration list for PBXNativeTarget "Derulo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC912ED5F706E45398F5E84A175479C3 /* Debug */,
-				F8B3F0DB6B24653391326F1CD39F919C /* Release */,
+				F2692609DA755B38505C1B8F0FEB9F92 /* Debug */,
+				FCB80D6FC375A06B7976B5C9D4E97241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
