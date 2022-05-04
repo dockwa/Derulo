@@ -11,7 +11,7 @@ import Foundation
 ///Helps you to create JSON objects and JSON arrays from JSONConvertible objects and arrays of JSONConvertible objects.
 public protocol JSONConversionHelper {
     associatedtype T
-    
+
     func json(fromObject: T?) -> JSON?
     func json(fromObject: T) -> JSON
     func jsonArray(fromArray: [T]?) -> [JSON]?
@@ -25,7 +25,7 @@ public struct JSONConverter<T: JSONConvertible>: JSONConversionHelper {
         guard let object = fromObject else { return nil }
         return object.asJSON
     }
-    
+
     public func json(fromObject: T) -> JSON {
         return fromObject.asJSON
     }
