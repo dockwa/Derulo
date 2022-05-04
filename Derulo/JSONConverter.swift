@@ -4,24 +4,18 @@
 //
 //  Created by Christian Hatch on 1/19/17.
 //
-//
-
 import Foundation
 
-
-
 //MARK: - JSONConverter
-
 
 ///Helps you to create JSON objects and JSON arrays from JSONConvertible objects and arrays of JSONConvertible objects.
 public protocol JSONConversionHelper {
     associatedtype T
-    
+
     func json(fromObject: T?) -> JSON?
     func json(fromObject: T) -> JSON
     func jsonArray(fromArray: [T]?) -> [JSON]?
 }
-
 
 ///Converts the object to JSON or a JSON array.
 public struct JSONConverter<T: JSONConvertible>: JSONConversionHelper {
@@ -31,12 +25,11 @@ public struct JSONConverter<T: JSONConvertible>: JSONConversionHelper {
         guard let object = fromObject else { return nil }
         return object.asJSON
     }
-    
+
     public func json(fromObject: T) -> JSON {
         return fromObject.asJSON
     }
-    
-    
+
     public func jsonArray(fromArray: [T]?) -> [JSON]? {
         guard let array = fromArray else { return nil }
         if array.isEmpty { return [] }
@@ -44,4 +37,3 @@ public struct JSONConverter<T: JSONConvertible>: JSONConversionHelper {
         return mapped
     }
 }
-
