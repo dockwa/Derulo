@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Derulo'
-  s.version          = '1.5.0'
+  s.version          = '1.6.0'
   s.summary          = 'A flexible collection of Swift protocols and helpers to organize and manage translating between JSON and native Swift objects.'
 
   s.description      = <<-DESC

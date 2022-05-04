@@ -7,5 +7,4 @@ target 'Derulo_Example' do
       pod 'Derulo', :path => '../'
     inherit! :search_paths
   end
-  
 end
