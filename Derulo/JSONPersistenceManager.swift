@@ -95,8 +95,8 @@ private struct JSONFileManager {
     
     private static func write(validJSON json: Any, toFilename: String) {
         guard JSONSerialization.isValidJSONObject(json) else {
-            print(#function, "Invalid JSON")
             assertionFailure("Invalid JSON! Cannot write to file.")
+            print(#function, "Invalid JSON")
             return
         }
         
