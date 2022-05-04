@@ -4,10 +4,7 @@
 //
 //  Created by Christian Hatch on 1/19/17.
 //
-//
-
 import Foundation
-
 
 ///Helper for persisting objects to disk. Converts the object to JSON or a JSON array.
 public struct JSONPersistenceConverter<T: JSONPersistable>: JSONConversionHelper {
@@ -21,7 +18,6 @@ public struct JSONPersistenceConverter<T: JSONPersistable>: JSONConversionHelper
     public func json(fromObject: T) -> JSON {
         return fromObject.asPersistenceJSON
     }
-    
     
     public func jsonArray(fromArray: [T]?) -> [JSON]? {
         guard let array = fromArray else { return nil }

@@ -4,11 +4,7 @@
 //
 //  Created by Christian Hatch on 1/19/17.
 //
-//
-
 import Foundation
-
-
 
 ///Helps you to persist, restore, and remove JSONPersistable objects from disk.
 public struct JSONPersistenceManager<T: JSONPersistable> {
@@ -17,7 +13,6 @@ public struct JSONPersistenceManager<T: JSONPersistable> {
     //MARK: - Objects
     
     public func restoreObject(withKey key: String) -> T? {
-        
         guard let json = JSONFileManager.loadJSON(withFilename: key), let object = T(json: json) else {
             return nil
         }
@@ -25,16 +20,13 @@ public struct JSONPersistenceManager<T: JSONPersistable> {
     }
     
     public func store(object: T, withKey: String) {
-        
         let json = object.asPersistenceJSON
         JSONFileManager.write(json: json, toFilename: withKey)
     }
-    
-    
+
     //MARK: - Arrays
     
     public func restoreArray(withKey key: String) -> [T]? {
-        
         guard let json = JSONFileManager.loadJSONArray(withFilename: key) else {
             return nil
         }
@@ -43,13 +35,10 @@ public struct JSONPersistenceManager<T: JSONPersistable> {
     }
     
     public func store(array: [T], withKey: String) {
-        
         guard let json = JSONPersistenceConverter<T>().jsonArray(fromArray: array) else { return }
         JSONFileManager.write(jsonArray: json, toFilename: withKey)
     }
 
-    
-    
     //MARK: - Remove
     
     public func removeObject(withKey key: String) {
@@ -57,21 +46,11 @@ public struct JSONPersistenceManager<T: JSONPersistable> {
     }
 }
 
-
-
-
-
-
-
-
-
-
 //MARK: - JSONFileManager
 
 ///Private implementation for JSONPersistenceManager
 private struct JSONFileManager {
-    
-    
+
     //MARK: - Load (Public API)
     
     static func loadJSON(withFilename filename: String) -> JSON? {
@@ -85,7 +64,6 @@ private struct JSONFileManager {
     //MARK: - Private Load 
     
     private static func load(withFilename filename: String) -> Any? {
-        
         let path = self.path(forFilename: filename)
         
         guard let jsonData = try? Data(contentsOf: path) else {
@@ -102,10 +80,7 @@ private struct JSONFileManager {
             return nil
         }
     }
-    
-    
-    
-    
+
     //MARK: - Write (Public API)
     
     static func write(json: JSON, toFilename: String) {
@@ -115,14 +90,13 @@ private struct JSONFileManager {
     static func write(jsonArray: [JSON], toFilename: String) {
         write(validJSON: jsonArray, toFilename: toFilename)
     }
-    
-    
+
     //MARK: - Private Write 
     
     private static func write(validJSON json: Any, toFilename: String) {
-        
         guard JSONSerialization.isValidJSONObject(json) else {
             print(#function, "Invalid JSON")
+            assertionFailure("Invalid JSON! Cannot write to file.")
             return
         }
         

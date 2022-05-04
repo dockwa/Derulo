@@ -4,18 +4,14 @@
 //
 //  Created by Christian Hatch on 1/19/17.
 //
-//
-
 import Foundation
-
 
 //MARK: - JSONMapper
 
 ///Helps you to create objects and Arrays of objects from JSON.
 public struct JSONMapper<T: JSONMappable> {
     public init() {}
-    
-    
+
     //MARK: - Map from JSON
     
     public func map(json: JSON?) -> T? {
@@ -27,8 +23,7 @@ public struct JSONMapper<T: JSONMappable> {
         let mapped = T(json: json)
         return mapped
     }
-    
-    
+
     //MARK: - Map from JSON Array
     
     public func mapArray(json: [JSON]?) -> [T]? {
@@ -37,8 +32,6 @@ public struct JSONMapper<T: JSONMappable> {
         let mapped = json.compactMap { T(json: $0) }
         return mapped
     }
-    
-    
     
     //MARK: - Map from Data
     
