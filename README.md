@@ -17,8 +17,6 @@ A flexible collection of Swift protocols and helpers to organize and manage tran
 * Simple, straightforward, and lightweight; Derulo sits right between "I'll just implement it myself without a third party library" and "I don't really want to reinvent the wheel and implement a JSON strategy from scratch"
 
 
-
-
 ## Example
 
 #### start with JSON
@@ -29,7 +27,6 @@ jasonJSON["id"] = 93
 jasonJSON["name"] = "Jason Derulo"
 jasonJSON["fav_song"] = "wiggle"
 ```
-
 
 ### From JSON
 
@@ -45,9 +42,7 @@ let jasonPerson = Person(json: jasonJSON)
 let jasonPersonJSON = jasonPerson.asJSON
 ```
 
-
 ### Arrays
-
 
 #### make another json
 ```swift
@@ -71,7 +66,6 @@ let people: [Person] = JSONMapper<Person>().mapArray(json: jsonArray)
 let peopleJSON: [JSON] = JSONConverter<Person>().jsonArray(fromArray: people)
 ```
 
-
 ### Persistence
 
 ```swift
@@ -93,7 +87,6 @@ let restoredPeople: [Person] = JSONPersistenceManager<Person>().restoreArray(wit
 JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
 ```
 
-
 ### From Data
 
 #### start with Data
@@ -107,40 +100,36 @@ let jasonPersonFromData = JSONMapper<Person>().map(data: data)
 print(jasonPersonFromData ?? "")
 ```
 
-
 ### Example Implementation
 
 ```swift
-struct Person: Identifiable {
+struct Person: Identifiable, JSONModel {
     let identifier: Identifier
     let name: String
     let favoriteSong: Song?
 }
 
 extension Person: JSONMappable {
-    
     init?(json: JSON?) {
         guard let json = json else { return nil }
-        
+
         guard let id = IntToStringTransform().transform(fromJSON: json["id"]) else {
             print(#function, String(describing: Person.self), "JSON missing required properties")
             return nil
         }
-        
+
         self.identifier = id
         self.name = json["name"] as? String ?? "No Name"
         self.favoriteSong = Song(jsonEntry: json["fav_song"])
     }
 }
 
-
 extension Person: JSONConvertible {
-    
     var asJSON: JSON {
         var json = JSON()
         json["id"] = IntToStringTransform().transform(toJSON: identifier)
         json["name"] = name
-        
+
         if let favoriteSong = favoriteSong {
             json["fav_song"] = favoriteSong.asJSONEntry
         }
@@ -148,38 +137,24 @@ extension Person: JSONConvertible {
     }
 }
 
-
-extension Person: JSONModel {}
-
-
 extension Person: JSONPersistable {
-    
-    var asPersistenceJSON: JSON {
-        return asJSON
-    }
+    var asPersistenceJSON: JSON { asJSON }
 }
-
-
 
 enum Song: String {
     case wiggle
     case talkDirty
 }
 
-
 extension Song: JSONEntryMappable, JSONEntryConvertible {
-
     init?(jsonEntry: JSONEntry?) {
         guard let jsonEntry = jsonEntry as? String else { return nil }
         self.init(rawValue: jsonEntry)
     }
-    
-    var asJSONEntry: String {
-        return rawValue
-    }
+
+    var asJSONEntry: String { rawValue }
 }
 ```
-
 
 ## Requirements
 

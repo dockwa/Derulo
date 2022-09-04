@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Derulo'
-  s.version          = '1.6.0'
+  s.version          = '1.7.0'
   s.summary          = 'A flexible collection of Swift protocols and helpers to organize and manage translating between JSON and native Swift objects.'
 
   s.description      = <<-DESC
@@ -30,8 +30,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/commodoreftp'
 
   s.swift_version = '5.0'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Derulo/*.swift'
-  
+  s.source_files = 'Sources/Derulo/*.swift'
 end

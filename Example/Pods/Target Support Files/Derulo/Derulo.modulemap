@@ -1,6 +1,0 @@
-framework module Derulo {
-  umbrella header "Derulo-umbrella.h"
-
-  export *
-  module * { export * }
-}
