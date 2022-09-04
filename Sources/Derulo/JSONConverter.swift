@@ -21,7 +21,7 @@ public struct JSONConverter<T: JSONConvertible>: JSONConversionHelper {
     }
 
     public func json(fromObject: T) -> JSON {
-        return fromObject.asJSON
+        fromObject.asJSON
     }
 
     public func jsonArray(fromArray: [T]?) -> [JSON]? {

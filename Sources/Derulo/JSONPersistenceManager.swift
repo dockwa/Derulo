@@ -48,11 +48,11 @@ private struct JSONFileManager {
     //MARK: - Load (Public API)
 
     static func loadJSON(withFilename filename: String) -> JSON? {
-        return load(withFilename: filename) as? JSON
+        load(withFilename: filename) as? JSON
     }
 
     static func loadJSONArray(withFilename filename: String) -> [JSON]? {
-        return load(withFilename: filename) as? [JSON]
+        load(withFilename: filename) as? [JSON]
     }
 
     //MARK: - Private Load 
@@ -125,7 +125,7 @@ private struct JSONFileManager {
     //MARK: - Private
 
     private static func path(forFilename filename: String) -> URL {
-        return documentsDirectory.appendingPathComponent("\(filename)")
+        documentsDirectory.appendingPathComponent("\(filename)")
     }
 
     private static var documentsDirectory: URL {

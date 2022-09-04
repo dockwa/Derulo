@@ -10,7 +10,7 @@ public struct JSONPersistenceConverter<T: JSONPersistable>: JSONConversionHelper
     }
     
     public func json(fromObject: T) -> JSON {
-        return fromObject.asPersistenceJSON
+        fromObject.asPersistenceJSON
     }
     
     public func jsonArray(fromArray: [T]?) -> [JSON]? {
