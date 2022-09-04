@@ -9,10 +9,9 @@ final class DeruloTests: XCTestCase {
         jasonJSON["id"] = 93
         jasonJSON["name"] = "Jason Derulo"
         jasonJSON["fav_song"] = "wiggle"
-//    }
-        //MARK: - To / From JSON
 
-//    func testInit() {
+    //MARK: - To / From JSON
+
         //parse into model object
         let jasonPerson = Person(json: jasonJSON)
 
@@ -24,11 +23,9 @@ final class DeruloTests: XCTestCase {
         var jaySeanJSON = JSON()
         jaySeanJSON["id"] = 57
         jaySeanJSON["name"] = "Jay Sean"
-//    }
 
     // MARK: - Arrays
 
-//    func testArrays() {
         //start with JSON an array of json
         let jsonArray = [jasonJSON, jaySeanJSON]
 
@@ -38,11 +35,9 @@ final class DeruloTests: XCTestCase {
         //convert to JSON
         let peopleJSON = JSONConverter<Person>().jsonArray(fromArray: people)
         print(peopleJSON ?? "")
-//    }
 
     // MARK: - Persistence
 
-//    func testPersistence() {
         let persistenceKey = "people"
 
         //store on disk
@@ -56,10 +51,8 @@ final class DeruloTests: XCTestCase {
 
         //delete from disk
         JSONPersistenceManager<Person>().removeObject(withKey: persistenceKey)
-//    }
 
-//    func testLoadingFromData() {
-        //MARK: - From Data
+    //MARK: - From Data
 
         //start with Data
         guard let data = try? JSONSerialization.data(withJSONObject: jasonJSON, options: []) else { return }
