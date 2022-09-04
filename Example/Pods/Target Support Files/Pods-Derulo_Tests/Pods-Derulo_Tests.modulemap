@@ -1,6 +1,0 @@
-framework module Pods_Derulo_Tests {
-  umbrella header "Pods-Derulo_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
